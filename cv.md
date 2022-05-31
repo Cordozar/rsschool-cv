@@ -40,7 +40,7 @@ Solution:
 function fun(str) {
 let allSymbols = str.length; //всего символов
 
-let symbolsWithoutSpaces = str.replace(/ /g, '').length; //символов без пробелов
+let symbolsWithoutSpaces = str.replace(/ /g, '').length;
 
 function coutnWordsFun(str1) {
 let a = str1.split(' ');
@@ -48,7 +48,7 @@ let b = a.filter((item) => item.length > 0);
 let c = b.length;
 return c;
 }
-let quantityOfWords = coutnWordsFun(str); //количество слов
+let quantityOfWords = coutnWordsFun(str);
 
 function sentence(str2) {
 if (str2[str2.length - 1] === '!') {
@@ -61,7 +61,7 @@ return 'утвердительное';
 return 'null';
 }
 }
-let sentenceType = sentence(str); //характер предложения
+let sentenceType = sentence(str);
 
 return {
 allSymbols: allSymbols,

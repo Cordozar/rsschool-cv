@@ -7,16 +7,16 @@
 2. Contacts:
 
 
-[ВКонтакте](https://vk.com/samson9797 'ВКонтакте')
+   [ВКонтакте](https://vk.com/samson9797 'ВКонтакте')
 
 
-[Instagram](https://www.instagram.com/yura_samsonenko/ 'Telegram')
+   [Instagram](https://www.instagram.com/yura_samsonenko/ 'Telegram')
 
 
-Telegram: @YurySamsonenko
+   Telegram: @YurySamsonenko
 
 
-Nickname on Discord: Yury Samsonenko (@Cordozar)
+   Nickname on Discord: Yury Samsonenko (@Cordozar)
 
 
 3. My goal is to gain new knowledge, learn a new profession, change jobs. My strengths: the desire to understand the topic in detail, purposefulness and discipline.
@@ -25,7 +25,7 @@ Nickname on Discord: Yury Samsonenko (@Cordozar)
 4. Skills: I have some knowledge of html, css, js.
 
 
-5. Task: Напишите функицию, которая принимает в качестве параметра текст (строку) и анализирует ее на количество символов без пробелов, количество слов и определяет характер предложения (вопросительное, отрицательное, утвердительное). Характер предложения можно определить исходя из заключительного знака препинания. Если тип предлоежния не удалось пределить,присвоить свойству значение null. Собранные данные возвращаются в виде объекта следующего формата:
+5. Task: Напишите функицию, которая принимает в качестве параметра текст (строку) и анализирует ее на количество символов без     пробелов, количество слов и определяет характер предложения (вопросительное, отрицательное, утвердительное). Характер предложения можно определить исходя из заключительного знака препинания. Если тип предлоежния не удалось пределить,присвоить свойству значение null. Собранные данные возвращаются в виде объекта следующего формата:
 
 ```
 {

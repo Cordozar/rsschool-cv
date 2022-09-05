@@ -7,8 +7,11 @@
 2. Contacts:
 
    [ВКонтакте](https://vk.com/samson9797 'ВКонтакте')
+
    [Instagram](https://www.instagram.com/yura_samsonenko/ 'Telegram')
+
    [Telegram](https://t.me/YurySamsonenko 'Telegram')
+
    [Discord](https://discord.com/users/924872041981689878/ 'Discord')
 
 

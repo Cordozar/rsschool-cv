@@ -16,3 +16,61 @@
 
 
 4. Skills: I have some knowledge of html, css.
+
+
+5. Task: Напишите функицию, которая принимает в качестве параметра текст (строку) и анализирует ее на количество символов без     пробелов, количество слов и определяет характер предложения (вопросительное, отрицательное, утвердительное). Характер предложения можно определить исходя из заключительного знака препинания. Если тип предлоежния не удалось пределить,присвоить свойству значение null. Собранные данные возвращаются в виде объекта следующего формата:
+
+```
+{
+ allSymbols: 123,
+ symbolsWithoutSpaces: 105,
+ quantityOfWords: 23,
+ sentenceType: 'question'
+}
+```
+Solution:
+```
+function fun(str) {
+let allSymbols = str.length; //всего символов
+
+let symbolsWithoutSpaces = str.replace(/ /g, '').length; //символов без пробелов
+
+function coutnWordsFun(str1) {
+let a = str1.split(' ');
+let b = a.filter((item) => item.length > 0);
+let c = b.length;
+return c;
+}
+let quantityOfWords = coutnWordsFun(str); //количество слов
+
+function sentence(str2) {
+if (str2[str2.length - 1] === '!') {
+return 'восклицательное';
+} else if (str2[str2.length - 1] === '?') {
+return 'вопросительное';
+} else if (str2[str2.length - 1] === '.') {
+return 'утвердительное';
+} else {
+return 'null';
+}
+}
+let sentenceType = sentence(str); //характер предложения
+
+return {
+allSymbols: allSymbols,
+symbolsWithoutSpaces: symbolsWithoutSpaces,
+quantityOfWords: quantityOfWords,
+sentenceType: sentenceType,
+};
+}
+console.log(fun('Сегодня на улице я видел собаку, которая бежала за котом!'));
+```
+
+
+6. No work experience
+
+
+7. Completed higher technical education, front-end cours 2 months, self-study 4 months.
+
+
+8. B1

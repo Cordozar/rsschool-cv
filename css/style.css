@@ -140,7 +140,7 @@ main {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.section-information div:not(:last-child) {
+.section-information div:not(:nth-last-child(-n+2)) {
   border-bottom: 1px solid rgb(255, 255, 255);
 }
 
@@ -207,6 +207,15 @@ main {
   background-repeat: no-repeat;
   background-size: auto 80%;
   transform: translateY(1px);
+}
+
+.section-information__projects-link {
+  transition: color linear .3s;
+  display: block;
+}
+
+.section-information__projects-link:hover {
+color: rgb(201, 146, 107);
 }
 
 .footer {

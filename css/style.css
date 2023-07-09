@@ -83,15 +83,16 @@ main {
   position: absolute;
   bottom: -5px;
   left: 0;
-  width: 100%;
+  width: 0;
   height: 2px;
   background-color: #ffffff;
   opacity: 0;
-  transition: .5s;
+  transition: .3s;
 }
 
 .header__nav-link:hover:after {
   opacity: 1;
+  width: 100%;
 }
 
 .section-hero {
@@ -242,14 +243,15 @@ color: rgb(201, 146, 107);
   position: absolute;
   bottom: -5px;
   left: 0;
-  width: 100%;
+  width: 0;
   height: 2px;
   background-color: #ffffff;
   opacity: 0;
-  transition: .5s;
+  transition: .3s;
 }
 
 .footer__link:hover:after {
+  width: 100%;
   opacity: 1;
 }
 
